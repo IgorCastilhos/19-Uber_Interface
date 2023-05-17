@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Widget de transporte</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <div class="card flex">
+      <div class="card-drag"></div>
+      <header class="card-header">
+        <div>
+          <h1>Encontre <span>Igor</span> no local de partida</h1>
+          <p>Chega em 3 minutos (800 metros)</p>
+        </div>
+      </header>
+
+      <main class="card-body flex">
+        <div class="card-body-left flex">
+          <div class="card-body-driver flex">
+            <div class="card-body-driver-avatar">
+              <img
+                src="https://github.com/igorcastilhos.png"
+                alt="Imagem do Igor"
+              />
+            </div>
+            <div class="card-body-driver-stars flex">
+              <div class="star">
+                <i class="ph-fill ph-star"></i>
+              </div>
+              <strong>5.0</strong>
+            </div>
+            <div class="card-body-driver-name">Igor C.</div>
+          </div>
+
+          <div class="card-body-car-img">
+            <img
+              src="https://i.ibb.co/M17SvNX/car-image.png"
+              alt="carro roxo"
+            />
+          </div>
+        </div>
+
+        <div class="card-body-right">
+          <div class="card-body-right-car-plate">BCD0D19</div>
+          <div class="card-body-right-car-model">Honda Civic Roxo</div>
+        </div>
+      </main>
+
+      <footer class="card-footer flex">
+        <div class="input-wrapper flex">
+          <label for="message">Enviar mensagem para Igor...</label>
+          <input
+            type="text"
+            name="message"
+            id="message"
+            placeholder="Enviar mensagem para Igor..."
+          />
+        </div>
+
+        <div class="phone">
+          <i class="ph-fill ph-phone"></i>
+        </div>
+        <div class="shield">
+          <i class="ph-fill ph-shield-plus"></i>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
